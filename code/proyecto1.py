@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 import csv
 import os
-
+# Se configura la direccion del tesseract OCR
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\juanp\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 def preprocesar_imagen_mejorado(image):
